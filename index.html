@@ -98,6 +98,56 @@ nav a {
     font-size: 13px;
   }
 }
+
+/* TRENDING NEWS DESIGN */
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 18px;
+}
+
+.news-card {
+  background: #1c1c1c;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #333;
+}
+
+.news-card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  display: block;
+}
+
+.news-info {
+  padding: 16px;
+}
+
+.news-tag {
+  color: #ff4040;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.news-info h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.news-info p {
+  color: #aaa;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.news-info a {
+  display: inline-block;
+  color: #ff4040;
+  margin-top: 12px;
+  text-decoration: none;
+}
   
 </style>
 </head>
